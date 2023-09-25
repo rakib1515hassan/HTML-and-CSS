@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fasthand&family=Noto+Serif+Makasar&display=swap');
+
+a {
+    margin: 50px;
+    text-decoration: none;
+}
+
+a i {
+    margin-top: 50px;
+}
+
+p{
+    margin: 50px;
+    font-size: 25px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.test_1 {
+    margin: 50px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: normal; /* লেখা Bolt থাকলে তাকে Normal করে দেয়। */
+    /* font-weight: bold; */  /* লেখা Bolt করে। এখানে number ব্যবহার করা যাবে 700 মানে Bolt 400 মানে Normal*/
+    font-family: tahoma;
+
+}
+.test_2 {
+    margin: 50px;
+    font-family: Agency FB;
+
+}
+.test_3 {
+    margin: 50px;
+    font-size: 50px;
+    font-family: 'Caprasimo', cursive;
+
+}
+.test_4 {
+    margin: 50px;
+    font-size: 50px;
+    font-family: 'Fasthand', cursive;
+
+}
+.test_5 {
+    margin: 50px;
+    font-size: 50px;
+    font-family: 'Noto Serif Makasar', serif;
+
+}
+.test_1 {
+    margin: 50px;
+    font-family: tahoma;
+
+}
+.test_1 {
+    margin: 50px;
+    font-family: tahoma;
+
+}
+.test_1 {
+    margin: 50px;
+    font-family: tahoma;
+
+}

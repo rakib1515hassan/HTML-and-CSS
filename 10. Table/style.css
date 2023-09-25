@@ -1,0 +1,13 @@
+table, td, th {
+    border: 1px solid #000;
+    text-align: left;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse; /* এর মধ্যমে Double border কে single border এ নিয়ে আনা হয়েছে। */
+}
+
+th, td {
+    padding: 10px;
+}

@@ -1,0 +1,43 @@
+.test_1{
+    width: 600px;
+    height: 400px;
+    background-color: green;
+    position: relative; /* এর আর্থ হল আমরা এই div এর ভেতর যতগুলো tag নিব তা স্বগুলো এর ভেতররে জায়গা নিবে, বাহিরে যাবে না। */
+}
+
+.test_2{
+    width: 180px;
+    height: 180px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+.test_3 {
+    border: 1px solid red;
+    margin-top: 15px;
+    background-color: red;
+    position: sticky;
+    top: 0;  /* position: sticky; করার পর top: 0; করলে এটি ওপরে fix হয়ে যাবে। */
+    text-align: center;
+    color: white;
+}
+
+.test_4 {
+    padding-bottom: 10px;
+}
+
+.end {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: blue;
+    color: white;
+}

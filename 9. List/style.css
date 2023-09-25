@@ -1,0 +1,24 @@
+div {
+    margin: 50px;
+}
+
+ul {
+    /* circle, square, upper-roman, lower-alpha */
+    /* list-style-type: armenian;  */
+    /* list-style-image: url("img/star.png"); */
+
+    list-style-position: inside;          /* ২য় লাইনটি dot এর নিচে থেকে শুরু হবে */
+    /* list-style-position: outside; */   /* ২য় লাইনটি dot এর নিচে থেকে শুরু হবে না। NOTE:- Diffalt ভাবে এটি থাকে */
+
+
+}
+
+ul li {
+	margin: 0;
+	padding: 10px 0 10px 15px;
+	list-style: none; /* li এর আগে যে dot থাকে তা Remove হয়ে যায় */
+	background-image: url("img/star.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+}

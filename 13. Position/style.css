@@ -1,0 +1,116 @@
+/* 
+5 ধরনের Position আমরা দেখতে পাই ....
+
+i) static    => An element with position: static; is not positioned in any special way; it is always positioned according to
+                the normal flow of the page:
+
+ii) relative => কোন কিছু কে আপেক্ষিক ধরে তার অবস্থানের তুলনায় অবস্থান করে।
+
+iii) fixed
+
+iv) absolute
+
+v) sticky    => An element with position: sticky; is positioned based on the user's scroll position.
+
+*/
+
+
+.test_1{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: absolute; /* এখন এই Box টি কে জেকোন দিকে নেয়া যাবে। */
+    /* top: 50px; /* তার মানে Top থেকে 50px নিচে নেমে আসবে। */
+    /* left: 50px; /* তার মানে Left থেকে 50px ডানে সরে আসবে। */
+    top: 0;
+    left: 0;
+}
+
+
+.test_2{
+    background-color: rgb(190, 30, 30);
+    width: 200px;
+    height: 200px;
+    position: absolute; /* এখন এই Box টি কে জেকোন দিকে নেয়া যাবে। */
+    bottom: 0; 
+    right: 0;
+}
+
+
+.test_3{
+    background-color: rgb(28, 45, 224);
+    width: 200px;
+    height: 200px;
+    position: absolute; /* এখন এই Box টি কে জেকোন দিকে নেয়া যাবে। */
+    top: 0; 
+    right: 0;
+}
+
+.test_4{
+    background-color: rgb(187, 26, 212);
+    width: 200px;
+    height: 200px;
+    position: absolute; /* এখন এই Box টি কে জেকোন দিকে নেয়া যাবে। */
+    bottom: 0; 
+    left: 0;
+}
+
+.test{
+    background-color: rgb(26, 172, 202);
+    width: 200px;
+    height: 200px;
+    position: absolute; /* এখন এই Box টি কে জেকোন দিকে নেয়া যাবে। */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+
+
+
+.test_6{
+    background-color: rgb(27, 197, 15);
+    width: 100px;
+    height: 100px;
+    position: absolute; /* এখন এই Box টি কে জেকোন দিকে নেয়া যাবে। */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.test_7{
+    background-color: rgb(27, 197, 15);
+    width: 100px;
+    height: 100px;
+    position: absolute; /* এখন এই Box টি কে জেকোন দিকে নেয়া যাবে। */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.test_8{
+    background-color: rgb(27, 197, 15);
+    width: 100px;
+    height: 100px;
+    position: absolute; /* এখন এই Box টি কে জেকোন দিকে নেয়া যাবে। */
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.test_9{
+    background-color: rgb(27, 197, 15);
+    width: 100px;
+    height: 100px;
+    position: absolute; /* এখন এই Box টি কে জেকোন দিকে নেয়া যাবে। */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}

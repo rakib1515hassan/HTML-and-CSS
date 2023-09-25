@@ -1,0 +1,44 @@
+.test1 {
+    margin: 50px;
+    color: rgb(203, 48, 53);
+
+    text-align: center;
+}
+
+
+.test2 {
+    margin: 50px;
+    color: blue;
+    font-size: 20px;
+
+    /* text-align: left; */
+    /* text-align: right; */
+    text-align: justify;
+
+
+    text-indent: 50px; /* Paragraph এর প্রথম লাইন এর প্রথম Word টি 50px পর থেকে শুরু হবে */
+    letter-spacing: 1px;  /* দুইটি Letter এর মধ্যবর্তি দুরত্ব */
+    line-height: 2;       /* দুইটি Line এর মধ্যবর্তি দুরত্ব px ও use করা যায় */
+    word-spacing: 20px;   /* দুইটি Word এর মধ্যবর্তি দুরত্ব */
+
+    
+}
+
+a {
+    /* এটি দিলে link এর নিছের underline চলে যায় */
+    text-decoration: none; 
+}
+
+h3 {
+    
+    /* text-decoration: underline;  */     /* নিচে দাগ হবে */
+    /* text-decoration: overline;  */      /* উপরে দাগ হবে */
+    /* text-decoration: line-through; */   /* লেখার মাঝে দাগ হবে */
+
+
+    text-transform: capitalize;       /* প্রথম Latter Uppercase হবে */  
+    /* text-transform: uppercase; */  /* শবগুলো Latter Uppercase হবে */
+    /* text-transform: lowercase; */  /* শবগুলো Latter Lowercase হবে */
+
+    text-shadow: 1px 1px red; /* প্রথমটি left-right দ্বিতীয়টি top-bottom */
+}

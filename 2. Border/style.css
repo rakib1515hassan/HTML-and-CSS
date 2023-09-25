@@ -1,0 +1,8 @@
+.test{
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: blue; */
+    
+    border: 5px solid blue;
+    border-radius: 10px;
+}

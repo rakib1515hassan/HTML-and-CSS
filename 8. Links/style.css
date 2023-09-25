@@ -1,0 +1,41 @@
+div {
+    margin: 50px;
+}
+
+
+a {
+    color: aliceblue;
+    background-color: blue;
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* a:link {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: red;
+} */
+
+a:visited {
+    background-color: brown;
+    color: #fff;
+}
+
+a:hover {
+    background-color: rgb(31, 224, 73);
+    color: yellow;
+}
+
+/* Click করে চেপে ধরে রাখলে দেখা যবে। */
+a:active {
+    background-color: rgb(31, 163, 220);
+    color: black;
+}

@@ -1,0 +1,19 @@
+/* 
+ওভারফ্লো প্রপার্টি নির্দিষ্ট করে দেয় যে কন্টেন্ট ক্লিপ করতে হবে বা স্ক্রলবার যোগ করতে হবে যখন কোনো উপাদানের বিষয়বস্তু নির্দিষ্ট এলাকায় ফিট করার জন্য খুব বড় হয়।
+
+The overflow property has the following values:
+
+i) visible  -> Default. The overflow is not clipped. The content renders outside the element's box
+ii) hidden  -> The overflow is clipped, and the rest of the content will be invisible
+iii) scroll -> The overflow is clipped, and a scrollbar is added to see the rest of the content
+iv) auto    -> Similar to scroll, but it adds scrollbars only when necessary
+
+
+*/
+
+div{
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    overflow: auto;
+}

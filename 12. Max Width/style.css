@@ -1,0 +1,13 @@
+.test_1 {
+    border: 3px solid #000;
+    width: 400px;
+    margin: auto; /* width যদি 100% এর নিছে হয় তবে margin=auto করলে তা midel এ চলে আশে। */
+}
+
+
+
+.test_2 {
+    border: 3px solid red;
+    max-width: 400px; /* Phone কিংবা ছোট Device এ জন্যে ভালো। */
+    margin: auto;
+}

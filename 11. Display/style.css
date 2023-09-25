@@ -1,0 +1,23 @@
+h1 {
+    display: none; /* এর মধ্যমে h1 tag এর ভেতরে থাকা লিখাটি দেখাবে না। */
+}
+
+.h3-1 {
+    text-align: center;
+}
+
+.span-1 {
+    text-align: center; /* যেহেতু span একটি Inline element তাই একে center এ আনতে হলে তাকে আগে Bolock এ convert করতে হবে। */
+    display: block;
+}
+
+
+
+.h3-2 {
+    display: inline;
+}
+
+
+ul li {
+    display: inline;
+}
