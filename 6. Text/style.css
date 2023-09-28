@@ -1,3 +1,8 @@
+body{
+    margin-bottom: 300px;
+    margin-top: 30px;
+}
+
 .test1 {
     margin: 50px;
     color: rgb(203, 48, 53);
@@ -42,3 +47,177 @@ h3 {
 
     text-shadow: 1px 1px red; /* প্রথমটি left-right দ্বিতীয়টি top-bottom */
 }
+
+.test{
+    white-space: pre-wrap;
+    
+}
+
+.v-aling{
+    vertical-align: super;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+/* 
+
+    1.color             - Text এর রং র্নিধারন করে।
+
+    2.direction         - Text এর দিক র্নিধারন করে।।
+
+    3.letter-spacing    - এর মাধ্যমে একিট text এর characters গুলোর মধ্যে space এর পরিমান কমানো বা বাড়ানো যায়।
+
+    4.line-height       - লাইেনর উচ্ছতা নির্দেশ করে।       
+
+    5.text-align        - Text এর  আনুভুমিক Alignment নির্দেশ করে। ( left, right, center )
+
+    6.text decoration   - এই প্রপাটির মাধ্যমে Text কে বিভিন্নভাবে প্রর্দশন করা যেতে পারে।
+
+    7.text-indent       - text indent মানে লেখাটি বাম দিক থেকে কটুটুকু ছাড় দিয়ে শুরু হবে।
+
+    8.text-shadow       - Text shadow effect জোগ করে।
+
+    9.text-transform    - Text capitalizetion নিয়ন্ত্রন করে।
+
+    10.vertical-align   - Text উলম্ব aligenments নির্দেশ করে।
+
+    11.white-space      - Specifies how white-space inside an element is handled
+
+    12.word-spacing     - এর মাধ্যমে পাশা পাশি শব্দ গুলোর মধ্যে white space এর পরিমান কমানো বা বাড়ানো যায়।
+
+*/
+
+
+
+
+/* 
+    p {
+        direction: rtl;                এর ফলে লিখা Right side থেকে শুরু হবে। ( Default direction ltr থাকে )  
+        unicode-bidi: bidi-override;   এর ফলে লিখা Arabic style এ হবে।
+    } 
+*/
+
+
+
+
+
+/* 
+    color: blue;
+    text-indent: 50px;     - Paragraph এর প্রথম লাইন এর প্রথম Word টি 50px পর থেকে শুরু হবে 
+    letter-spacing: 1px;   - দুইটি Letter এর মধ্যবর্তি দুরত্ব 
+    line-height: 2;        - দুইটি Line এর মধ্যবর্তি দুরত্ব px ও use করা যায় 
+    word-spacing: 20px;    - দুইটি Word এর মধ্যবর্তি দুরত্ব 
+*/
+
+
+
+
+
+
+/* 
+    text-align: right;
+    text-align: left;
+    text-align: center;
+    text-align: end;
+    text-align: justify;   - The text is justified according to the method specified by the 'text-justify' property.
+*/
+
+
+
+
+
+
+/* 
+    text-decoration: overline;              - দাগ Text এর উপর দিয়ে থাকে।
+    text-decoration: line-through;          - দাগ Text এর মাঝ দিয়ে থাকে।
+    text-decoration: underline;             - দাগ Text এর নিচ দিয়ে থাকে।
+    text-decoration: overline underline;    - দাগ Text এর উপর নিচ দুই দিক দিয়ে থাকে।
+*/
+
+
+
+
+
+
+/* 
+    text-transform: uppercase;   -Example:- RAKIB HASSAN
+    text-transform: lowercase;   -Example:- rakib hassan
+    text-transform: capitalize;  -Example:- Rakib Hassan
+*/
+
+
+
+
+
+
+/* 
+    text-indent: 50px;      - The text-indent property is used to specify the indentation of the first line of a text:
+    letter-spacing: 5px;
+    letter-spacing: -2px;   - The letter-spacing property is used to specify the space between the characters in a text.
+    line-height: 0.8;       - The line-height property is used to specify the space between lines
+    word-spacing: 10px;     - The word-spacing property is used to specify the space between the words in a text.
+*/
+
+
+
+
+
+
+/* 
+    text-shadow: 2px 2px;
+    text-shadow: 2px 2px red;
+    text-shadow: 2px 2px 5px red;
+
+    h1 {
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    h1 {
+        text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+    }
+
+    h1 {
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+*/
+
+
+
+
+
+/* 
+    word-spacing: normal;   - পাশা পাশি অনেকগুলো whitespace কে একটি whitespace-এ পরিণত করে। Text-কে মুড়িয়ে (wrap) করবে যখন প্রয়োজন। 
+
+    word-spacing: nowrap;   - পাশা পাশি অনেকগুলো whitespace কে একটি whitespace-এ পরিণত করে। Text-কে মুড়িয়ে (wrap) পরবর্তি লাইনে যাবে না।
+                              কিন্তু এক লাইনে চলতে চলতে যদি <br/> tag পায় তবে তা মুড়িয়ে (wrap) অন্য লাইনে যাবে।
+
+    word-spacing: pre;      - Code-এ যতগুলো Whitespace থাকবে তার সবই Browser-এ দেখাবে।
+                              Text will only wrap on line breaks Acts like the <pre> tag in HTML
+
+    word-spacing: pre-line; - পাশা পাশি অনেকগুলো whitespace কে একটি whitespace-এ পরিণত করে। Text-কে মুড়িয়ে (wrap) পরবর্তি লাইনে যাবে
+                              যখন প্রয়োজন হবে কিন্তু লাইন break হবে না।
+
+    word-spacing: pre-wrap; - Code-এ যতগুলো Whitespace থাকবে তার সবই Browser-এ দেখাবে। Text-কে মুড়িয়ে (wrap) পরবর্তি লাইনে যাবে
+                              যখন প্রয়োজন হবে কিন্তু লাইন break হবে না।
+*/
+
+
+
+/* 
+    vertical-align: baseline;  - মূল উপাদানের সাথে বর্তমান উপাদানের aling করে এটা Deffault
+    vertical-align: sub;       - বর্তমান উপাদানকে subscript হিসেবে দেখায়।
+    vertical-align: sub;       - বর্তমান উপাদানকে superscript হিসেবে দেখায়।
+    vertical-align: top;       - বর্তমান উপাদানকে top-কে বর্তমান সারির সবথেকে উঁচু উপাদানের top এর সাথে aling করে দেখায়।
+    vertical-align: text-top;  - বর্তমান উপাদানকে মূল উপাদানের top of the font এর সাথে aling করে দেখায়।
+    vertical-align: middle;    - বর্তমান উপাদানকে মূল উপাদানের মাঝে aling করে দেখায়।
+    vertical-align: bootom;    - বর্তমান উপাদানের তলকে ঐ লাইনের সবচে নিচের উপাদানটির সাথে aling করে দেখায়।
+    vertical-align: text-bootom;  - বর্তমান উপাদানের তল (bootom) মূল উপাদানটির তলের সাথে aling করে দেখায়।
+*/
+
