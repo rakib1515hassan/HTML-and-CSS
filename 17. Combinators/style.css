@@ -1,0 +1,29 @@
+body{
+    margin: 50px;
+}
+
+
+.a p{
+    background-color: yellow;
+}
+
+
+/* যখন আমরা Combinator use করবো তখন কেবল b class এর ভেতর directly p tag থাকলেই কেবল তার color দেখাবে */
+.b > p{
+    background-color: yellow;
+}
+
+
+
+/* এই Combinator টি মানে হল, Div এর ভেতরের p tag কে না ধরে তার immediate পরের p tag এর background-color change করা। */
+.c + p{
+    background-color: yellow;
+}
+
+
+
+
+/* এই Combinator টি মানে হল, Div এর ভেতরের p tag কে না ধরে তার immediate পরের p tag সহ এর পরের গুলোর ও background-color change হবে। */
+.d ~ p{
+    background-color: yellow;
+}

@@ -1,0 +1,21 @@
+body{
+    margin: 50px;
+}
+
+/* Opacity এর মান 0 থেকে 1 এর ভেতর হবে। এটি মূলত Blur করে দেয় যে কোন কিছুকে। */
+
+
+.bg {
+    width: 800px;
+    height: 500px;
+    background:url(./img/Bangladesh_Flag.jpg) no-repeat center / cover;
+    overflow: hidden;
+    opacity: 50%;
+}
+
+
+.box {
+    margin-top: 100px;
+    text-align: center;
+    color: #000;
+}

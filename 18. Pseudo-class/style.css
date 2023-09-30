@@ -1,0 +1,45 @@
+body{
+    margin: 50px;
+}
+
+
+
+a {
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* : এর পরের আংশকে বলে pseudo class */
+a:hover{
+    color: rgb(21, 21, 20);
+}
+
+h2:nth-child(5){
+    color: red;
+}
+
+h2:first-child{
+    color: blue;
+}
+
+
+h2:last-child{
+    color: rgb(229, 25, 178);
+}
+
+
+.a::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
+
+.b::before{
+    content: url(./img/star.png);
+    
+}
