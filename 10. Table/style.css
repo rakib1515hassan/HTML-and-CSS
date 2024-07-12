@@ -1,6 +1,8 @@
 table, td, th {
     border: 1px solid #000;
+    /* border: 1px solid #fff; */
     text-align: left;
+    /* border: none; */
 }
 
 table {
@@ -10,4 +12,10 @@ table {
 
 th, td {
     padding: 10px;
+}
+
+table th{
+    background: red;
+    color: white;
+    border: none;
 }
